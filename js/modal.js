@@ -1,4 +1,4 @@
-// window in index page - title button
+
 (() => {
     const refs = {
       openModalBtn: document.querySelector('[data-modal-open]'),

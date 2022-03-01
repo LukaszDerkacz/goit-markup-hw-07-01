@@ -1,0 +1,66 @@
+$colors: (
+    'primary':#212121,
+    'dark': #2f303a,
+    'second': #757575,
+    'accent': #2196F3,
+    'gray': #F5F4FA,
+    'light-gray': #AFB1B8,
+    'very-light-gray': #ececec,
+    'white': #ffffff,
+    'border': #EEEEEE,
+)
+
+$font-weight (
+    'normal': 400,
+    'light': 500,
+    'bold': 600,
+    'extra-bold': 700,
+)
+
+$font-size (
+    '12': 12px,
+    '14': 14px,
+    '16': 16px,
+    '18': 18px,
+    '26': 26px,
+    '36': 36px,
+    '44': 44px,
+)
+
+$line-height (
+    '16': 16px,
+    '16>': 16.41px,
+    '18>': 18.75px,
+    '24': 24px,
+    '26': 26px,
+    '28': 28px,
+    '30': 30px,
+    '30>': 30.52px,
+    '36': 36px,
+    '42>': 42.19px,
+    '60': 60px,
+)
+
+$leter-spacing (
+    '01': 0.1em,
+    '02': 0.02em,
+    '03': 0.03em,
+    '06': 0.06em,
+)
+
+$font-family (
+    'roboto': 'Roboto', 
+    'raleway': 'Raleway',
+)
+
+$gap-size (
+    '4': 4px,
+    '8': 8px,
+    '10': 10px,
+    '12': 12px,
+    '30': 30px,
+    '46': 46px,
+    '50': 50px,
+    '70': 70px,
+    '93': 93px,
+)
