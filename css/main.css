@@ -86,23 +86,23 @@ p{
   /* =========== header =========== */
 
   /* added to scss */
-  .header {
+  .header-main {
     border-bottom: 1px solid #ececec ;
   }
 
-  .header-nav-content{
+  .flex-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
   }
 
-  .header-nav{
+  .navigation {
     display: flex;
     gap: 93px;
   }
 
-  .header-nav ul{
+  .navigation ul{
     font-size: var(--font-size-16px);
     display: flex;
     align-items: center;
@@ -144,7 +144,7 @@ p{
     font-weight: var(--font-weight-bold);
   }
 
-  .font-accent {
+  .heder-font {
     color: var(--accent-color);
   }
   .header-contact{
