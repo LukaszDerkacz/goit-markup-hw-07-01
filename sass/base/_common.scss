@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: var(--font-family-primary);
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-36px);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-h2);
+  letter-spacing: var(--spacing-percent-3);
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  display: block;
+}
