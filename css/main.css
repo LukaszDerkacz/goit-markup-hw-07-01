@@ -18,14 +18,15 @@
   --line-height-table-text: 24px;
 
   /* added to scss */
-  --primary-color: #212121;
-  --second-color: #757575;
+  --primary-theme-color: #212121;
+  --second-theme-color: #757575;
+  --white-multi-color: #ffffff;
   --accent-color: #2196F3;
-  --dark-color: #2f303a;
-  --light-color: #F5F4FA;
-  --white-color: #ffffff;
-  --border-portfolio: #EEEEEE;
-  --svg-icon-color: #AFB1B8;
+  --background-dark-color: #2f303a;
+  --background-light-color: #F5F4FA;
+  --border-portfolio-color: #EEEEEE;
+  --border-header-color:#ececec;
+  --svg-fill-color: #AFB1B8;
   
   /* added to scss */
   --spacing-percent-2: 0.02em;
@@ -87,10 +88,10 @@ p{
 
   /* added to scss */
   .header-main {
-    border-bottom: 1px solid #ececec ;
+    border-bottom: 1px solid var(--border-header-color) ;
   }
 
-  .flex-header {
+  .header-main--flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,7 +180,7 @@ p{
 
   .main-title {
     display: flex;
-    background: var(--dark-color);
+    background: var(--background-dark-color);
     height: 600px; 
     margin: 0 auto;
     text-align: center; 
@@ -203,7 +204,7 @@ p{
   } */
 
   .main-title-content h1{
-    color: var(--white-color);
+    color: var(--white-multi-color);
     font-size: var(--font-size-44px);
     font-weight: var(--font-weight-extra-bold);
     line-height: 60px;
@@ -215,7 +216,7 @@ p{
   }
 
   .main-title-button {
-    color: var(--white-color);
+    color: var(--white-multi-color);
     background-color: var(--accent-color);
     font-weight: var(--font-weight-bold);
     line-height: 30px;
@@ -253,7 +254,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--light-color);
+    background-color: var(--background-light-color);
     border-radius: 4px;
   }
 
@@ -278,7 +279,7 @@ p{
   /* =========== task description =========== */
   .task-description {
     /* text-align: center; */
-    background-color: var(--white-color);
+    background-color: var(--white-multi-color);
     padding: 94px 0px 94px;
   }
 
@@ -304,7 +305,7 @@ p{
     justify-content: center;
     width: 100%;
     height: 70px;
-    color: var(--white-color);
+    color: var(--white-multi-color);
     background-color: rgba(47, 48, 58, 0.8);
     font-family: var(--font-family-primary);
     font-size: 14px;
@@ -320,7 +321,7 @@ p{
   /* =========== team =========== */
 
   .team{
-    background-color: var(--light-color);
+    background-color: var(--background-light-color);
     padding: 94px 0px 94px;
   }
 
@@ -335,14 +336,14 @@ p{
     max-width: 270px;
     height: auto;
     overflow: hidden;
-    background: var(--white-color);
+    background: var(--white-multi-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   } 
 
   .content-item-link h4 {
     color: var(--primary-color);
-    background-color: var(--white-color);
+    background-color: var(--white-multi-color);
     font-size: var(--font-size-16px);
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-bold);
@@ -355,7 +356,7 @@ p{
   
   .content-item-link p {
     color: var(--second-color);
-    background-color: var(--white-color);
+    background-color: var(--white-multi-color);
     font-size: var(--font-size-16px);
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-normal);
@@ -380,7 +381,7 @@ p{
   }
 
   .team-web-svg-item {
-    fill: var(--svg-icon-color);
+    fill: var(--svg-fill-color);
     width: 44px;
     height: 44px; 
     display: flex;
@@ -392,14 +393,14 @@ p{
 
   .team-web-svg-item:hover,
   .team-web-svg-item:active{
-    fill: var(--white-color);
+    fill: var(--white-multi-color);
     background-color: var(--accent-color);
   }
 
   
   /* =========== customers =========== */
   .customers {
-    background-color: var(--white-color);
+    background-color: var(--white-multi-color);
     padding: 94px 0px 94px;
   }
 
@@ -411,13 +412,13 @@ p{
   }
 
   .customers-svg-icon {
-    fill: var(--svg-icon-color);
+    fill: var(--svg-fill-color);
     width: 170px;
     height: 92px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--svg-icon-color);
+    border: 1px solid var(--svg-fill-color);
     border-radius: 4px;
     cursor: pointer;
   }
@@ -461,7 +462,7 @@ p{
     letter-spacing: var(--spacing-percent-3);
     border-radius: 4px;
     border: 0;
-    background-color: var(--light-color);
+    background-color: var(--background-light-color);
     padding: 6px 22px;
   }
 
@@ -469,7 +470,7 @@ p{
   .portfolio-button-item:focus,
   .portfolio-button-item:active {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    color: var(--white-color);
+    color: var(--white-multi-color);
     background-color: var(--accent-color);
     /* cursor: pointer; */
     cursor: pointer;
@@ -488,8 +489,8 @@ p{
   .portfolio-content-item{
     max-width: 370px;
     height: auto;
-    background: var(--white-color);
-    border: 1px solid var(--border-portfolio);
+    background: var(--white-multi-color);
+    border: 1px solid var(--border-portfolio-color);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
   }
@@ -522,7 +523,7 @@ p{
     bottom: 0;
     left: 0;
     background-color: var(--accent-color);
-    color: var(--white-color);
+    color: var(--white-multi-color);
     font-size: var(--font-size-18px);
     line-height: 28px;
     letter-spacing: var(--spacing-percent-3);
@@ -564,7 +565,7 @@ p{
   /* =========== FOOTER =========== */
 
   .footer-body {
-    background-color: var(--dark-color);
+    background-color: var(--background-dark-color);
   }
 
   .footer-columns {
@@ -582,7 +583,7 @@ p{
   } 
   
   .footer-body-logo {
-    color: var(--white-color);
+    color: var(--white-multi-color);
     font-size: var(--font-size-26px);
     font-family: var(--font-family-raleway);
     font-weight: var(--font-weight-bold);
@@ -599,7 +600,7 @@ p{
   }
 
   .footer-body-contact-link {
-    color: var(--white-color);
+    color: var(--white-multi-color);
     font-size: var(--font-size-14px);
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-normal);
@@ -608,7 +609,7 @@ p{
   }
   
   .footer-body-contact-link a {
-    color: var(--white-color);
+    color: var(--white-multi-color);
     opacity: 0.6;
     font-weight: var(--font-weight-normal);
   }
@@ -626,7 +627,7 @@ p{
   }
 
   .footer-two h3{
-    color: var(--white-color);
+    color: var(--white-multi-color);
     text-transform: uppercase;
     font-size: var(--font-size-14px);
     font-weight: var(--font-weight-bold);
@@ -648,7 +649,7 @@ p{
   }
 
   .footer-svg{
-    fill: var(--white-color);
+    fill: var(--white-multi-color);
     width: 44px;
     height: 44px;
     display: flex;
@@ -663,7 +664,7 @@ p{
   .footer-newsleter {
     display: flex;
     gap: 12px;
-    fill: var(--white-color);
+    fill: var(--white-multi-color);
   }
 
   .footer-input-email:placeholder-shown {
@@ -683,8 +684,8 @@ p{
   .footer-button {
     display: flex;
     align-items: center;
-    fill: var(--white-color);
-    color: var(--white-color);
+    fill: var(--white-multi-color);
+    color: var(--white-multi-color);
     width: 200px;
     height: 50px;
     background-color: var(--accent-color);
@@ -749,7 +750,7 @@ p{
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     fill: var(--color-primary);
-    background-color: var(--white-color);
+    background-color: var(--white-multi-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -762,7 +763,7 @@ p{
     transform: translate(-50%,-50%);
     width: 528px;
     height: 581px;
-    background-color: var(--white-color);
+    background-color: var(--white-multi-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
   }
@@ -917,12 +918,12 @@ p{
     width: 15px;
     border: 1px solid var(--primary-color);
     border-radius: 2px;
-    background-color: var(--white-color);
+    background-color: var(--white-multi-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .policy:hover input ~ .checkmark {
-  background-color: var(--white-color);
+  background-color: var(--white-multi-color);
   }
 
   .policy input:checked ~ .checkmark {
@@ -946,7 +947,7 @@ p{
 
   .modal-button {
     margin: 30px auto auto auto;
-    color: var(--white-color);
+    color: var(--white-multi-color);
     background-color: var(--accent-color);
     font-size: 16px;
     font-family: var(--font-family-primary);

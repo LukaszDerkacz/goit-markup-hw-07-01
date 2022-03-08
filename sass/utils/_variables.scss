@@ -1,23 +1,24 @@
 $colors: (
-    'primary':#212121,
-    'dark': #2f303a,
-    'second': #757575,
+    'primary-theme':#212121,
+    'second-theme': #757575,
+    'white-multi': #ffffff,
     'accent': #2196F3,
-    'gray': #F5F4FA,
-    'light-gray': #AFB1B8,
-    'very-light-gray': #ececec,
-    'white': #ffffff,
-    'border': #EEEEEE,
-)
+    'background-dark': #2f303a,
+    'background-light': #F5F4FA,
+    'border-portfolio': #EEEEEE,
+    'border-header': #ececec,
+    'svg-fill': #AFB1B8,
+);
 
-$font-weight (
+
+$font-weight: (
     'normal': 400,
     'light': 500,
     'bold': 600,
     'extra-bold': 700,
-)
+);
 
-$font-size (
+$font-size: (
     '12': 12px,
     '14': 14px,
     '16': 16px,
@@ -25,35 +26,35 @@ $font-size (
     '26': 26px,
     '36': 36px,
     '44': 44px,
-)
+);
 
-$line-height (
+$line-height: (
     '16': 16px,
-    '16>': 16.41px,
-    '18>': 18.75px,
+    '1641': 16.41px,
+    '1875': 18.75px,
     '24': 24px,
     '26': 26px,
     '28': 28px,
     '30': 30px,
-    '30>': 30.52px,
+    '3052': 30.52px,
     '36': 36px,
-    '42>': 42.19px,
+    '4219': 42.19px,
     '60': 60px,
-)
+);
 
-$leter-spacing (
+$leter-spacing: (
     '01': 0.1em,
     '02': 0.02em,
     '03': 0.03em,
     '06': 0.06em,
-)
+);
 
-$font-family (
+$font-family: (
     'roboto': 'Roboto', 
     'raleway': 'Raleway',
-)
+);
 
-$gap-size (
+$gap-size: (
     '4': 4px,
     '8': 8px,
     '10': 10px,
@@ -63,4 +64,6 @@ $gap-size (
     '50': 50px,
     '70': 70px,
     '93': 93px,
-)
+);
+
+
