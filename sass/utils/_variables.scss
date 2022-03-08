@@ -10,7 +10,6 @@ $colors: (
     'svg-fill': #AFB1B8,
 );
 
-
 $font-weight: (
     'normal': 400,
     'light': 500,
@@ -26,6 +25,11 @@ $font-size: (
     '26': 26px,
     '36': 36px,
     '44': 44px,
+);
+
+$font-family: (
+    'roboto': 'Roboto', 
+    'raleway': 'Raleway',
 );
 
 $line-height: (
@@ -49,11 +53,6 @@ $leter-spacing: (
     '06': 0.06em,
 );
 
-$font-family: (
-    'roboto': 'Roboto', 
-    'raleway': 'Raleway',
-);
-
 $gap-size: (
     '4': 4px,
     '8': 8px,
@@ -65,5 +64,6 @@ $gap-size: (
     '70': 70px,
     '93': 93px,
 );
+
 
 

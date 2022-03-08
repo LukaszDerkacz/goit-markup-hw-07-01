@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/main-utils.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_functions.scss",
+        "../sass/base/main-base.scss",
+        "../sass/components/_header.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
