@@ -1,27 +1,29 @@
-@function get-color($colr) {
-    @return map-get($colors, $colr);
-  }
 
-  @function get-font-weight($wght) {
-    @return map-get($font-weight, $wght);
-  }
+@function get-color($color) {
+  @return map-get($colors, $color);
+}
 
-  @function get-font-size($szfnt) {
-    @return map-get($font-size, $szfnt);
-  }
+@function get-font-weight($wght) {
+  @return map-get($font-weight, $wght);
+}
 
-  @function get-font-family($fontfam) {
-    @return map-get($font-family, $fontfam);
-  }
+@function get-font-size($szfnt) {
+  @return map-get($font-size, $szfnt);
+}
 
-  @function get-line-height($lnhght) {
-    @return map-get($line-height, $lnhght);
-  }
+@function get-font-family($fontfam) {
+  @return map-get($font-family, $fontfam);
+}
 
-  @function get-leter-spacing($spacletr) {
-    @return map-get($leter-spacing, $spacletr);
-  }
+@function get-line-height($lnhght) {
+  @return map-get($line-height, $lnhght);
+}
 
-  @function get-gap($gapsiz) {
-    @return map-get($gap-size, $gapsiz);
-  }
+@function get-leter-spacing($spacletr) {
+  @return map-get($leter-spacing, $spacletr);
+}
+
+@function get-gap($gapsiz) {
+  @return map-get($gap-size, $gapsiz);
+}
+
