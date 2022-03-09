@@ -10,15 +10,15 @@ html {
 
 body {
   color: get-color('primary-theme');
-  font-family: get-font-family('roboto');
+  font-family: get-font-family('primary');
 }
 
 
 h2 {
-  font-family: get-font-family('roboto');
+  font-family: get-font-family('primary');
   font-size: get-font-size('36');
   font-weight: get-font-weight('bold');
-  line-height: get-line-height('4219');
+  line-height: get-line-height('h2');
   letter-spacing: get-leter-spacing('03');
   margin: 0 auto;
   text-align: center;

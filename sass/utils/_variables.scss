@@ -28,22 +28,22 @@ $font-size: (
 );
 
 $font-family: (
-    'roboto': 'Roboto', 
-    'raleway': 'Raleway',
+    'primary': 'Roboto', 
+    'second': 'Raleway',
 );
 
 $line-height: (
-    '16': 16px,
-    '1641': 16.41px,
-    '1875': 18.75px,
-    '24': 24px,
-    '26': 26px,
-    '28': 28px,
-    '30': 30px,
-    '3052': 30.52px,
-    '36': 36px,
-    '4219': 42.19px,
-    '60': 60px,
+    'h3': 16px,
+    'table-header': 16.41px,
+    'h4': 18.75px,
+    'ptext': 24px,
+    'item': 26px,
+    'animation': 28px,
+    'button': 30px,
+    'logo': 30.52px,
+    'link-h4': 36px,
+    'h2': 42.19px,
+    'h1': 60px,
 );
 
 $leter-spacing: (
@@ -54,15 +54,15 @@ $leter-spacing: (
 );
 
 $gap-size: (
-    '4': 4px,
+    'backdrop': 4px,
     '8': 8px,
     '10': 10px,
     '12': 12px,
     '30': 30px,
-    '46': 46px,
-    '50': 50px,
-    '70': 70px,
-    '93': 93px,
+    'header-second': 46px,
+    'header-left': 50px,
+    'footer-col': 70px,
+    'header': 93px,
 );
 
 

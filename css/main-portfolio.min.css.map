@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/components/page-portfolio/main-portfolio.scss"
-    ],
-    "names": [],
-    "file": "main-portfolio.min.css"
-}

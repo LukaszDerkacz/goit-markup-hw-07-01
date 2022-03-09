@@ -1,5 +1,5 @@
-@import './utils/main-utils.scss';
+@import './utils/variables';
+@import './utils/variables';
 
-@import './base/main-base.scss';
-
-@import './components/header';
+@import './base/common';
+@import './base/container';
