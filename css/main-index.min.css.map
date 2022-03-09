@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/components/page-index/main-index.scss"
+    ],
+    "names": [],
+    "file": "main-index.min.css"
+}
