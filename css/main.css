@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #212121;
+  font-family: "Roboto";
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
