@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -13,27 +13,23 @@ body {
   font-family: $font-family-primary;
 }
 
-// h2 {
-// // h1,h2,h3,h4,h5,h6,ul,p {
-//   margin: 0;
-//   padding: 0;
-//   list-style-type: none;
-// }
-
-h2 {
-  font-family: $font-family-primary;
-  font-size: $font-size-36;
-  font-weight: $font-weight-bold;
-  line-height: $line-height-h2;
-  letter-spacing: $leter-spacing-03;
-  list-style-type: none;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 50px;
-}
-
-a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a,
+li,
+button {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
+  list-style: none;
+  color: $colors-primary-theme;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-normal;
 }
 
 // p {
