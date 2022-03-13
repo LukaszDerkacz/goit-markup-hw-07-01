@@ -1,67 +1,56 @@
-$colors: (
-    'primary-theme':#212121,
-    'second-theme': #757575,
-    'white-multi': #ffffff,
-    'accent': #2196F3,
-    'background-dark': #2f303a,
-    'background-light': #F5F4FA,
-    'border-portfolio': #EEEEEE,
-    'border-header': #ececec,
-    'svg-fill': #AFB1B8,
-);
+$colors-primary-theme:#212121;
+$colors-second-theme: #757575;
+$colors-white-multi: #ffffff;
+$colors-accent: #2196F3;
+$colors-background-dark: #2f303a;
+$colors-background-light: #F5F4FA;
+$colors-border-portfolio: #EEEEEE;
+$colors-border-header: #ececec;
+$colors-svg-fill: #AFB1B8;
 
-$font-weight: (
-    'normal': 400,
-    'light': 500,
-    'bold': 600,
-    'extra-bold': 700,
-);
+$font-weight-normal: 400;
+$font-weight-light: 500;
+$font-weight-bold: 600;
+$font-weight-extra-bold: 700;
 
-$font-size: (
-    '12': 12px,
-    '14': 14px,
-    '16': 16px,
-    '18': 18px,
-    '26': 26px,
-    '36': 36px,
-    '44': 44px,
-);
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-26: 26px;
+$font-size-36: 36px;
+$font-size-40: 40px;
+$font-size-44: 44px;
 
-$font-family: (
-    'primary': 'Roboto', 
-    'second': 'Raleway',
-);
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-second: 'Raleway', sans-serif;
 
-$line-height: (
-    'h3': 16px,
-    'table-header': 16.41px,
-    'h4': 18.75px,
-    'ptext': 24px,
-    'item': 26px,
-    'animation': 28px,
-    'button': 30px,
-    '31': 30px,
-    'logo': 30.52px,
-    'link-h4': 36px,
-    'h2': 42.19px,
-    'h1': 60px,
-);
+$line-height-h3: 16px;
+$line-height-table-header: 16.41px;
+$line-height-h4: 18.75px;
+$line-height-ptext: 24px;
+$line-height-item: 26px;
+$line-height-animation: 28px;
+$line-height-button: 30px;
+$line-height-31: 30px;
+$line-height-logo: 30.52px;
+$line-height-link-h4: 36px;
+$line-height-h2: 42.19px;
+$line-height-47: 47px;
+$line-height-h1: 60px;
 
-$leter-spacing: (
-    '01': 0.1em,
-    '02': 0.02em,
-    '03': 0.03em,
-    '06': 0.06em,
-);
+$leter-spacing-01: 0.1em;
+$leter-spacing-02: 0.02em;
+$leter-spacing-03: 0.03em;
+$leter-spacing-06: 0.06em;
 
-$gap-size: (
-    'backdrop': 4px,
-    '8': 8px,
-    '10': 10px,
-    '12': 12px,
-    '30': 30px,
-    'header-second': 46px,
-    'header-left': 50px,
-    'footer-col': 70px,
-    'header': 93px,
-);
+$gap-size-backdrop: 4px;
+$gap-size-8: 8px;
+$gap-size-10: 10px;
+$gap-size-12: 12px;
+$gap-size-30: 30px;
+$gap-size-header-second: 46px;
+$gap-size-header-left: 50px;
+$gap-size-footer-col: 70px;
+$gap-size-header: 93px;
+

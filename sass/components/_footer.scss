@@ -1,14 +1,14 @@
 /* =========== FOOTER =========== */
 
 .footer-body {
-    background-color: var(--background-dark-color);
+    background-color: $colors-background-dark;
   }
 
   .footer-columns {
     display: flex;
     /* align-content: center; */
     height: 252px; 
-    gap: var(--gap-size-footer-col);
+    gap: $gap-size-footer-col;
   }
 
   /* =========== 1. footer =========== */
@@ -19,12 +19,12 @@
   } 
   
   .footer-body-logo {
-    color: var(--white-multi-color);
-    font-size: var(--font-size-26);
-    font-family: var(--font-family-second);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-logo);
-    letter-spacing: var(--spacing-percent-3);
+    color: $colors-white-multi;
+    font-size: $font-size-26;
+    font-family: $font-family-second;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-logo;
+    letter-spacing: $leter-spacing-03;
   }
 
   address {
@@ -36,23 +36,23 @@
   }
 
   .footer-body-contact-link {
-    color: var(--white-multi-color);
-    font-size: var(--font-size-14);
-    font-family: var(--font-family-primary);
-    font-weight: var(--font-weight-normal);
+    color: $colors-white-multi;
+    font-size: $font-size-14;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-normal;
     line-height: 24px;
-    letter-spacing: var(--spacing-percent-3);
+    letter-spacing: $leter-spacing-03;
   }
   
   .footer-body-contact-link a {
-    color: var(--white-multi-color);
+    color: $colors-white-multi;
     opacity: 0.6;
-    font-weight: var(--font-weight-normal);
+    font-weight: $font-weight-normal;
   }
   
   .footer-body-contact-link a:hover,
   .footer-body-contact-link a:focus {
-    color: var(--accent-color);
+    color: $colors-accent;
     opacity: 1;
   }
 
@@ -63,20 +63,20 @@
   }
 
   .footer-two h3{
-    color: var(--white-multi-color);
+    color: $colors-white-multi;
     text-transform: uppercase;
-    font-size: var(--font-size-14);
-    font-weight: var(--font-weight-bold);
-    font-family: var(--font-family-primary);
-    line-height: var(--line-height-h3);
-    letter-spacing: var(--spacing-percent-3);
+    font-size: $font-size-14;
+    font-weight: $font-weight-bold;
+    font-family: $font-family-primary;
+    line-height: $line-height-h3;
+    letter-spacing: $leter-spacing-03;
     padding-bottom: 20px;
   }
 
   .footer-two ul{
     display: flex;
     justify-content: space-between;
-    gap: var(--gap-size-10);
+    gap: $gap-size-10;
   }
 
   .footer-icons{
@@ -85,7 +85,7 @@
   }
 
   .footer-svg{
-    fill: var(--white-multi-color);
+    fill: $colors-white-multi;
     width: 44px;
     height: 44px;
     display: flex;
@@ -99,42 +99,42 @@
 /* =========== 3. footer Newsleter box =========== */
   .footer-newsleter {
     display: flex;
-    gap: var(--gap-size-12);
-    fill: var(--white-multi-color);
+    gap: $gap-size-12;
+    fill: $colors-white-multi;
   }
 
   .footer-input-email:placeholder-shown {
-    border: 1px solid var(--second-theme-color);
+    border: 1px solid $colors-second-theme;
   }
 
   .footer-input-email {
   padding: 16px;
   width: 385px;
   height: 50px;
-  border: 1px solid var(--second-theme-color);
+  border: 1px solid $colors-second-theme;
   border-radius: 4px;
   font-family: inherit;
-  font-size: var(--font-size-16);
+  font-size: $font-size-16;
   }
 
   .footer-button {
     display: flex;
     align-items: center;
-    fill: var(--white-multi-color);
-    color: var(--white-multi-color);
+    fill: $colors-white-multi;
+    color: $colors-white-multi;
     width: 200px;
     height: 50px;
-    background-color: var(--accent-color);
+    background-color: $colors-accent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0px;
-    font-family: var(--font-family-primary);
+    font-family: $font-family-primary;
     font-style: normal;
     font-weight: bold;
-    font-size: var(--font-size-16);
-    line-height: var(--line-height-button);
+    font-size: $font-size-16;
+    line-height: $line-height-button;
     text-align: center;
-    letter-spacing: var(--spacing-percent-6);
+    letter-spacing: $leter-spacing-06;
     /* cursor: no-drop; */
     cursor: pointer;
   } 
@@ -151,6 +151,6 @@
   .footer-svg:hover,
   .footer-svg:focus,
   .footer-svg:active{
-    background-color: var(--accent-color) ;
+    background-color: $colors-accent ;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
