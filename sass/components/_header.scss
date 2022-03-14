@@ -17,11 +17,12 @@
         color: $colors-primary-theme;
         font-family:  $font-family-second;
         font-weight: $font-weight-bold;
+
+        &--accent {
+            color: $colors-accent;
+        }
     }
 
-    &__logo-font {
-        color: $colors-accent;
-    }
 
     &__list {
         font-size: $font-size-16;
@@ -29,21 +30,53 @@
     }
 
     &__link {
-        // font-size: $font-size-40;
         font-weight: $font-weight-light;
         font-family: $font-family-primary;
-        // line-height: $line-height-47;
         letter-spacing: $leter-spacing-02;
         color: $colors-primary-theme;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
-        &--active {
-            color: $colors-accent;
-        }
-
         &:hover,
         &:focus {
             color: var(--accent-color);
+        }
+
+        &--active {
+            color: $colors-accent;
+            
+            &::after {
+                position: absolute;
+                content: '';
+                display: block;
+                width: 53px;
+                height: 4px;
+                top: 76px;
+                background-color: $colors-accent;
+                border-radius: 2px;
+                transition: width 250ms cubic-bezier(0.4,0,0.2,1);
+            }
+        }
+    }
+}
+
+.header-contact {
+    gap: $gap-size-header-left;
+
+    &__right {
+        gap: $gap-size-10;
+        color: $colors-second-theme;
+        fill: $colors-second-theme;
+        font-size: $font-size-14;
+        font-weight: $font-weight-normal;
+        letter-spacing: $leter-spacing-02;
+        transition-property: color, fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover,
+        &:focus {
+          color: $colors-accent;
+          fill: $colors-accent;
         }
     }
 }
