@@ -93,7 +93,7 @@ button {
 }
 
 .nav__link:hover, .nav__link:focus {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .nav__link--active {
