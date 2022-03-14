@@ -1,31 +1,31 @@
-/* =========== FOOTER =========== */
+// /* =========== FOOTER =========== */
 
 .footer-body {
-    background-color: $colors-background-dark;
-  }
+  background-color: $colors-background-dark;
+}
 
-  .footer-columns {
-    display: flex;
-    /* align-content: center; */
-    height: 252px; 
-    gap: $gap-size-footer-col;
-  }
+.footer-columns {
+  height: 252px; 
+  gap: $gap-size-footer-col;
 
-  /* =========== 1. footer =========== */
-  
-  .footer-one{
-    justify-content: center;
+  &__one {
     padding-top: 60px;
-  } 
-  
-  .footer-body-logo {
-    color: $colors-white-multi;
-    font-size: $font-size-26;
-    font-family: $font-family-second;
-    font-weight: $font-weight-bold;
-    line-height: $line-height-logo;
-    letter-spacing: $leter-spacing-03;
   }
+
+}
+  
+.footer-logo {    
+  color: $colors-white-multi;
+  font-size: $font-size-26;
+  font-family: $font-family-second;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-logo;
+  letter-spacing: $leter-spacing-03;
+
+  &--accent {
+    color: $colors-accent;
+  }
+}
 
   address {
     margin-top: 20px;
