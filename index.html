@@ -566,12 +566,86 @@
                 </div>
             </section>
         </main>
-        <footer class="footer-body">
-            <div class="container flex footer-columns">
+        <footer class="footer flex">
+          <div class="container footer__content">
+            <ul class="footer__list flex flex--jc-c flex--ai-c">
+              <li class="footer__item">
+                <a class="footer__logo" href="index.html"><span class="footer__logo--accent">Web</span>Studio</a>
+                <address class="address">
+                  <ul class="address__list flex">
+                    <li class="address__item">m. Warszawa, Aleje Jerozolimskie 21</li>
+                    <li class="address__item">
+                      <a class="address__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="address__item">
+                      <a class="address__link" href="tel:+48111111111">+48 111 111 111</a>
+                    </li>
+                  </ul>
+                </address>
+              </li>
+              <li class="footer__item joinUs">
+                <h4 class="footer__title">Dołącz do nas</h4>
+                <ul class="joinUs__list">
+                  <li class="joinUs__item">
+                    <a class="joinUs__link flex flex--jc-c flex--ai-c" href="https://www.instagram.com/">
+                      <svg width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="joinUs__item">
+                    <a class="joinUs__link flex flex--jc-c flex--ai-c" href="https://twitter.com/">
+                      <svg width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="joinUs__item">
+                    <a class="joinUs__link flex flex--jc-c flex--ai-c" href="https://www.facebook.com/">
+                      <svg width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="joinUs__item">
+                    <a class="joinUs__link flex flex--jc-c flex--ai-c" href="https://pl.linkedin.com/">
+                      <svg width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__item">
+                <h4 class="footer__title">Zapisz się do newslettera</h4>
+                <form class="newsletter flex flex--ai-c flex--jc-c" action="" method="post">
+                  <input
+                    class="newsletter__input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="E-mail"
+                    aria-label="email"
+                  />
+                  <button class="newsletter__btn flex flex--ai-c flex--jc-c">
+                    Zapisz się
+                    <svg width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-send"></use>
+                    </svg>
+                  </button>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </footer>
+        <!-- <footer class="footer-body">
+            <div class="container footer-body__columns">
+                <ul class="footer-body__list flex flex--ai-c flex--ai-c">
                 <div class="footer-columns__one flex--jc-c">
                     <a class="footer-columns__logo" href="index.html"><span class="footer-columns__logo--accent">Web</span>Studio</a>
                     <address class="footer-columns__adres">
-                        <ul>
+                        
                             <li class="footer-body-contact-link"> 
                                 m. Warszawa, Aleje Jerozolimskie 21 
                             </li>
@@ -651,7 +725,7 @@
                     </ul>
                 </div>
             </div>
-        </footer>
+        </footer> -->
 
         <script src="./js/modal.js"></script>
     </body>
