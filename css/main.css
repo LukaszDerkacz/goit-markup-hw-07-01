@@ -146,7 +146,11 @@ button {
   padding-top: 60px;
 }
 
-.footer-columns_logo {
+.footer-columns__adres {
+  margin-top: 20px;
+}
+
+.footer-logo {
   color: #ffffff;
   font-size: 26px;
   font-family: "Raleway", sans-serif;
@@ -155,12 +159,8 @@ button {
   letter-spacing: 0.03em;
 }
 
-.footer-columns_logo--accent {
+.footer-logo--accent {
   color: #2196F3;
-}
-
-address {
-  margin-top: 20px;
 }
 
 .footer-body-contact-link:not(:last-child) {
