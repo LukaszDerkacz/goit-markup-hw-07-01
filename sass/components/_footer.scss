@@ -59,13 +59,8 @@
     font-size: $font-size-14;
     line-height: $line-height-ptext;
     letter-spacing: $leter-spacing-03;
-    color: $colors-white-multi;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    font-size: $font-size-14;
-    line-height: $line-height-ptext;
-    letter-spacing: $leter-spacing-03;
-    color: rgba(255, 255, 255, 0.1);
+    color: $colors-second-theme;
+    // color: rgba(255, 255, 255, 0.1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
@@ -103,7 +98,8 @@
 
   &__input {
     color: $colors-second-theme;
-    background-color: transparent;
+    background-color: $colors-white-multi;
+    // background-color: transparent;
     border-radius: 4px;
     height: 50px;
     width: 358px;
